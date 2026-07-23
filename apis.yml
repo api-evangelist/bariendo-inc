@@ -1,7 +1,15 @@
 aid: bariendo-inc
 name: Bariendo Inc.
-description: Bariendo Inc. is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Bariendo Inc. (now operating as Everself) is a science-forward digital
+  health company pioneering non-surgical, endoscopic weight-loss care. Founded in 2023
+  by Harvard Medical School physicians Dr. Christopher C. Thompson (the inventor of
+  Endoscopic Sleeve Gastroplasty) and Dr. Pichamol Jirapinyo, the company delivers
+  minimally invasive procedures — ESG Stomach Tightening, gastric balloon, and revision
+  of prior bariatric surgery — alongside weight-loss medication and a 12-month concierge
+  care program. Its consumer platform streamlines access to these interventions across
+  a dozen-plus U.S. locations, with financing, telehealth consultations, and ongoing
+  weight tracking. Bariendo/Everself is a consumer and clinical health service; it
+  publishes no public developer portal, API, or SDK surface.
 url: https://raw.githubusercontent.com/api-evangelist/bariendo-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-rebrand: Bariendo Inc. now operates publicly as Everself (bariendo.com 301-redirects to everself.com)
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Health
+- Healthcare
+- Digital Health
+- Weight Loss
+- Telehealth
+- Consumer Health
+- Medical Services
+image: https://everself.com/og/everself-social.jpg
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://bariendo.com
+  url: https://everself.com
+- type: Blog
+  url: https://everself.com/blog/
+- type: Pricing
+  url: https://everself.com/pricing-financing/
+- type: SignUp
+  url: https://app.everself.com/signup
+- type: Login
+  url: https://app.everself.com/login
+- type: TermsOfService
+  url: https://everself.com/legal/terms-of-service/
+- type: PrivacyPolicy
+  url: https://everself.com/legal/privacy-policy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
