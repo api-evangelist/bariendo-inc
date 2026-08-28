@@ -18,6 +18,17 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 x-rebrand: Bariendo Inc. now operates publicly as Everself (bariendo.com 301-redirects to everself.com)
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
