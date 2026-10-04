@@ -1,5 +1,5 @@
 aid: bariendo-inc
-name: Bariendo Inc.
+name: Everself
 description: Bariendo Inc. (now operating as Everself) is a science-forward digital
   health company pioneering non-surgical, endoscopic weight-loss care. Founded in 2023
   by Harvard Medical School physicians Dr. Christopher C. Thompson (the inventor of
@@ -79,3 +79,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: Bariendo Inc.
